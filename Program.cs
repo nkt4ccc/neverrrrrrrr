@@ -1,4 +1,4 @@
-﻿namespace neverrrrr
+namespace neverrrrr
 {
     class Program
     {
@@ -6,9 +6,8 @@
         {
             Student student = new Student();
 
-            // Ввод ФИО
-            System.Console.Write("Введите ФИО студента: ");
-            student.FIO = System.Console.ReadLine();
+            // ФИО задаётся сразу
+            student.FIO = "Шикунов Никита Андреевич";
 
             // Ввод первой оценки
             System.Console.Write("Введите первую оценку: ");
